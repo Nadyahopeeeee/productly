@@ -1,12 +1,15 @@
 //Abstract
+// @import "../node_modules/normalize-scss/sass/normalize";
 @import "abstract/constants";
 @import "abstract/mixins";
 @import "abstract/placeholders";
 
 //Base
+@import "base/normalize";
 @import "base/base";
 @import "base/buttons";
 @import "base/logo";
+@import "base/icons";
 
 //Layouts
 @import "layouts/wrapper";
@@ -15,3 +18,4 @@
 //Components
 @import "components/contact-us";
 @import "components/promo";
+@import "components/navigation";

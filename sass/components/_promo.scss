@@ -12,7 +12,18 @@
     padding-right: 65px;
 }
 
+.promo__title {
+    margin-right: 0 0 30px;
+}
+
 //all children
 .promo_buttons>* {
     margin-right: 44px;
+}
+
+.promo__text {
+    max-width: 489px;
+    @extend %font-add;
+    @include font(1.8rem, 2.8rem, normal);
+    margin: 0 0 45px;
 }
